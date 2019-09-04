@@ -45,7 +45,7 @@
     <link href="https://yinyoupoet.github.io/2019/09/03/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
     <id>https://yinyoupoet.github.io/2019/09/03/hexo博客中插入图片/</id>
     <published>2019-09-03T03:52:47.000Z</published>
-    <updated>2019-09-04T01:37:37.812Z</updated>
+    <updated>2019-09-04T09:12:36.031Z</updated>
     
     <content type="html"><![CDATA[<p>在使用了hexo搭建了博客后，最大的问题便是如何使用一款markdown工具来编辑博客了，我采取的就是Typora，这工具免费简单易用没广告，而且把图片保存到本地还是很方便的，因此大家只要稍微了解点markdown语法就可以上手使用了。</p><p>关于图片和图片路径的设置，有以下教程。</p><p>事先声明，所有博客文件均保存在 <code>hexo/_posts/</code>文件夹下</p><p>首先在 <code>hexo &gt; source</code>目录下建一个文件夹叫images，用来保存博客中的图片。</p><p>然后打开Typora的 <code>文件 &gt; 偏好设置</code>，进行如下设置。</p><p><img alt data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/1567505538899.png" class="lozad"></p><p>这样的话所有的博客中的图片都将会保存到 <code>/source/images/该博客md文件名/图片名称</code></p><p>但是仅仅这样设置还不够，这样设置在typora中倒是能看图片了，但是使用的却是相对于当前md文件的相对路径，可是如果启动hexo，是要用服务器访问的，而服务器显然无法根据这个相对路径正确访问到图片，因此还需要在typora中进行进一步设置。</p><p>在typora菜单栏点击 <code>格式-&gt;图像-&gt;设置图片根目录</code>，将<code>hexo/source</code>作为其根目录即可。</p><p><strong>一定要先设置了图片根目录后再插入图片，否则图片路径会不正确喔！</strong></p>]]></content>
     
@@ -58,9 +58,9 @@
       <category term="实用工具" scheme="https://yinyoupoet.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="Typora" scheme="https://yinyoupoet.github.io/tags/Typora/"/>
-    
       <category term="hexo" scheme="https://yinyoupoet.github.io/tags/hexo/"/>
+    
+      <category term="Typora" scheme="https://yinyoupoet.github.io/tags/Typora/"/>
     
       <category term="markdown" scheme="https://yinyoupoet.github.io/tags/markdown/"/>
     
