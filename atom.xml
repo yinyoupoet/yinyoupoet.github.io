@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>yinyoupoet的博客</title>
+  
+  <subtitle>鲜衣怒马少年时</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yinyoupoet.github.io/"/>
+  <updated>2019-09-04T01:36:11.473Z</updated>
+  <id>https://yinyoupoet.github.io/</id>
+  
+  <author>
+    <name>yinyoupoet</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客进行百度、谷歌SEO</title>
+    <link href="https://yinyoupoet.github.io/2019/09/04/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/"/>
+    <id>https://yinyoupoet.github.io/2019/09/04/hexo博客进行百度、谷歌SEO/</id>
+    <published>2019-09-04T00:42:32.000Z</published>
+    <updated>2019-09-04T01:36:11.473Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2><p>搭建了hexo博客并上传至github后，在百度或谷歌里输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:yinyoupoet.github.io</span><br></pre></td></tr></table></figure><p>会出现如下图片↓</p><p><img alt data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/1567557893917.png" class="lozad"></p><p>这意味着百度尚未收录入我的博客，即我们无法在百度上搜到我们自己写的博客，而我们新生个人博客本身流量就低，因此我们需要进行seo优化来让搜索引擎能搜索到我们的博客，下面就介绍seo方法。</p><h2 id="纳入百度谷歌搜索引擎"><a class="markdownIt-Anchor" href="#纳入百度谷歌搜索引擎"></a> 纳入百度/谷歌搜索引擎</h2><p>先放入两个平台站点管理的网站，然后分别进入并进行相应的注册。</p><p><a href="https://ziyuan.baidu.com/linksubmit/index" target="_blank" rel="noopener">百度搜索资源平台</a></p><p><a href="https://www.google.com/webmasters/tools/home?hl=zh-CN" target="_blank" rel="noopener">谷歌站点控制台</a></p><h3 id="百度"><a class="markdownIt-Anchor" href="#百度"></a> 百度</h3><p>进入百度搜索资源平台，点击链接提交并填写相应信息后，会需要验证网站</p><p><img alt="验证网站" data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/1567558548670.png" class="lozad"></p><p>在此我们使用文件验证的方式，先下载验证文件。</p><p>然后在hexo的根目录里，输入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>然后再在<code>hexo/public</code>目录中放入前面下载的验证文件，再部署到github上，然后点击验证即可。</p><p><strong>注意：</strong></p><ol><li>验证文件需要保存好，每次<code>hexo clean</code>后都会清空public文件夹，验证文件如果没有备份将会丢失。建议将其保存在hexo根目录下。</li><li>每次<code>hexo clean</code>后需要将验证文件重新复制到public文件夹中，以保证搜索引擎能一直收纳该网站。</li><li>不要为了图方便将验证文件放入<code>hexo/source</code>文件夹中，否则每次<code>hexo g</code>后hexo会自动加上一部分内容在验证文件中后放入public文件夹，因此访问到的验证文件被修改过了，会导致验证失败。</li></ol><h3 id="谷歌"><a class="markdownIt-Anchor" href="#谷歌"></a> 谷歌</h3><p>进入谷歌站点控制台，步骤与前面百度类似。下图中选择网址前缀，填入自己的网址后继续，使用文件验证的方式与百度的相同，在此不进行赘述。</p><p><img alt="谷歌站点控制台" data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/1567559080536.png" class="lozad"></p><h2 id="使用sitemap进行优化"><a class="markdownIt-Anchor" href="#使用sitemap进行优化"></a> 使用sitemap进行优化</h2><p>首先进入hexo根目录，并输入如下命令安装两个hexo插件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save-dev</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save-dev</span><br></pre></td></tr></table></figure><p>安装好后修改你hexo的配置文件<code>_config.yml</code>，将url改成你自己的域名</p><p><img alt data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/1567559463921.png" class="lozad"></p><p>在命令行输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>可以看到在public文件夹下出现了两个文件：</p><p><code>baidusitemap.xml</code>，<code>sitemap.xml</code></p><p>这两个文件可以通过<code>https://你的域名/xxx.xml</code>访问到。</p><p>然后将博客重新部署到github上。</p><p>在百度的域名管理的<strong>链接提交</strong>子菜单中，找到如下图所示位置，将你自己服务器能访问到上述两个xml文件的地址复制进去并点击提交即可。</p><p><img alt data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/1567559551406.png" class="lozad"></p><p>对于谷歌而言，如下图所示进行设置即可。</p><p><img alt data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E8%A1%8C%E7%99%BE%E5%BA%A6%E3%80%81%E8%B0%B7%E6%AD%8CSEO/1567559687438.png" class="lozad"></p>]]></content>
+    
+    <summary type="html">
+    
+      对hexo博客进行百度、谷歌SEO，并使用sitemap工具进行优化
+    
+    </summary>
+    
+      <category term="实用工具" scheme="https://yinyoupoet.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="hexo" scheme="https://yinyoupoet.github.io/tags/hexo/"/>
+    
+      <category term="seo" scheme="https://yinyoupoet.github.io/tags/seo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typora + hexo博客中插入图片</title>
+    <link href="https://yinyoupoet.github.io/2019/09/03/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
+    <id>https://yinyoupoet.github.io/2019/09/03/hexo博客中插入图片/</id>
+    <published>2019-09-03T03:52:47.000Z</published>
+    <updated>2019-09-04T01:37:37.812Z</updated>
+    
+    <content type="html"><![CDATA[<p>在使用了hexo搭建了博客后，最大的问题便是如何使用一款markdown工具来编辑博客了，我采取的就是Typora，这工具免费简单易用没广告，而且把图片保存到本地还是很方便的，因此大家只要稍微了解点markdown语法就可以上手使用了。</p><p>关于图片和图片路径的设置，有以下教程。</p><p>事先声明，所有博客文件均保存在 <code>hexo/_posts/</code>文件夹下</p><p>首先在 <code>hexo &gt; source</code>目录下建一个文件夹叫images，用来保存博客中的图片。</p><p>然后打开Typora的 <code>文件 &gt; 偏好设置</code>，进行如下设置。</p><p><img alt data-src="/images/hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/1567505538899.png" class="lozad"></p><p>这样的话所有的博客中的图片都将会保存到 <code>/source/images/该博客md文件名/图片名称</code></p><p>但是仅仅这样设置还不够，这样设置在typora中倒是能看图片了，但是使用的却是相对于当前md文件的相对路径，可是如果启动hexo，是要用服务器访问的，而服务器显然无法根据这个相对路径正确访问到图片，因此还需要在typora中进行进一步设置。</p><p>在typora菜单栏点击 <code>格式-&gt;图像-&gt;设置图片根目录</code>，将<code>hexo/source</code>作为其根目录即可。</p><p><strong>一定要先设置了图片根目录后再插入图片，否则图片路径会不正确喔！</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      使用hexo + typora完美实现博客编辑功能
+    
+    </summary>
+    
+      <category term="实用工具" scheme="https://yinyoupoet.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Typora" scheme="https://yinyoupoet.github.io/tags/Typora/"/>
+    
+      <category term="hexo" scheme="https://yinyoupoet.github.io/tags/hexo/"/>
+    
+      <category term="markdown" scheme="https://yinyoupoet.github.io/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开博大吉</title>
+    <link href="https://yinyoupoet.github.io/2019/09/02/%E6%96%B0%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://yinyoupoet.github.io/2019/09/02/新博客/</id>
+    <published>2019-09-02T04:25:00.000Z</published>
+    <updated>2019-09-04T01:24:53.201Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="正式开通github博客"><a class="markdownIt-Anchor" href="#正式开通github博客"></a> 正式开通github博客</h3><p>基于Hexo制作，使用了Butterfly主题！</p><p><img alt data-src="/images/%E6%96%B0%E5%8D%9A%E5%AE%A2/1567504904077.png" class="lozad"></p>]]></content>
+    
+    <summary type="html">
+    
+      开博啦！
+    
+    </summary>
+    
+      <category term="杂" scheme="https://yinyoupoet.github.io/categories/%E6%9D%82/"/>
+    
+    
+  </entry>
+  
+</feed>
