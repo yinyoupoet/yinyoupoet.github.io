@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yinyoupoet.github.io/"/>
-  <updated>2019-10-03T04:06:50.967Z</updated>
+  <updated>2019-10-05T08:14:47.070Z</updated>
   <id>https://yinyoupoet.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从文献综述看AI与车联网的融合发展【附相关论文】</title>
+    <link href="https://yinyoupoet.github.io/2019/10/05/%E4%BB%8E%E6%96%87%E7%8C%AE%E7%BB%BC%E8%BF%B0%E7%9C%8BAI%E4%B8%8E%E8%BD%A6%E8%81%94%E7%BD%91%E7%9A%84%E8%9E%8D%E5%90%88%E5%8F%91%E5%B1%95%E3%80%90%E9%99%84%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87%E3%80%91/"/>
+    <id>https://yinyoupoet.github.io/2019/10/05/从文献综述看AI与车联网的融合发展【附相关论文】/</id>
+    <published>2019-10-05T06:01:27.000Z</published>
+    <updated>2019-10-05T08:14:47.070Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于AI与车联网的融合发展，我将在本文中对几篇文献综述中所提到的信息进行总结，并将在最后进行整体归纳。在此向文献综述的作者们致以崇高的谢意。</p><h1 id="popular-content-distribution-in-public-transportation-using-artificial-intelligence-techniques"><a class="markdownIt-Anchor" href="#popular-content-distribution-in-public-transportation-using-artificial-intelligence-techniques"></a> <a href="https://uwspace.uwaterloo.ca/handle/10012/14908" target="_blank" rel="noopener">Popular Content Distribution in Public Transportation Using Artificial Intelligence Techniques</a> ——2019.1.8</h1><p>V2X有三大应用场景：traffic efficiency, road safety, energy efficiency</p><table><thead><tr><th>标题</th><th>总结</th></tr></thead><tbody><tr><td><a href="https://ieeexplore.ieee.org/abstract/document/8345672" target="_blank" rel="noopener">Machine Learning for Vehicular Networks: Recent Advances and Application Examples</a><br><strong>IEEE Vehicular Technology Magazine （SCI 2区）- 2018</strong></td><td>Designing highly accurate traffic flow prediction algorithms using conventional traffic flow estimation techniques is a big challenge【已下载】</td></tr><tr><td><a href="https://ieeexplore.ieee.org/document/6823640" target="_blank" rel="noopener">Connected Vehicles: Solutions and Challenges</a><br><strong>IEEE Internet of Things Journal （SCI 1区）- 2014</strong></td><td>The challenges and various solutions to connected vehicles【已下载】</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;对于AI与车联网的融合发展，我将在本文中对几篇文献综述中所提到的信息进行总结，并将在最后进行整体归纳。在此向文献综述的作者们致以崇高的谢意。&lt;/p&gt;
+&lt;h1 id=&quot;popular-content-distribution-in-public-transportation-
+      
+    
+    </summary>
+    
+      <category term="车联网" scheme="https://yinyoupoet.github.io/categories/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
+    
+    
+      <category term="车联网" scheme="https://yinyoupoet.github.io/tags/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
+    
+      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>我选择</title>
@@ -74,7 +102,7 @@
     <link href="https://yinyoupoet.github.io/2019/09/17/%E5%85%B3%E4%BA%8EAI%E8%B5%8B%E8%83%BD%E8%BD%A6%E8%81%94%E7%BD%91%E7%9A%84%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6/"/>
     <id>https://yinyoupoet.github.io/2019/09/17/关于AI赋能车联网的研究现状/</id>
     <published>2019-09-17T14:41:07.000Z</published>
-    <updated>2019-09-28T08:38:23.068Z</updated>
+    <updated>2019-10-05T07:40:24.705Z</updated>
     
     <content type="html"><![CDATA[<p>本文将会将AI与车联网相关的顶会文章进行总结，并将其按相关度分成五个等级，并对每一篇文章进行简短的总结与介绍。</p><h2 id="s级"><a class="markdownIt-Anchor" href="#s级"></a> S级</h2><table><thead><tr><th>标题</th><th>总结</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table><h2 id="a级"><a class="markdownIt-Anchor" href="#a级"></a> A级</h2><table><thead><tr><th>标题</th><th>总结</th><th>其他</th></tr></thead><tbody><tr><td><a href="https://uwspace.uwaterloo.ca/handle/10012/14908" target="_blank" rel="noopener">Popular Content Distribution in Public Transportation Using Artificial Intelligence Techniques</a></td><td>基于人工智能，利用公共交通（公交车），卸载室外无线网络负载。（注：论文无法下载，已向网站发送请求邮件）</td><td>邮件发出去很久了但一直没回复，估计不会回复了</td></tr><tr><td><a href="https://ieeexplore.ieee.org/document/8485876" target="_blank" rel="noopener">FML: Fast Machine Learning for 5G mmWave Vehicular Communications</a><br><strong>IEEE INFOCOM 2018</strong></td><td><span style="background:#ff8a80;color:#fff">【在线ML算法实现基站的mmWare波束智能选择】</span>5G的V2X的通信将主要采用mmWare以满足Gbps这种高带宽的需求，但mmWare具有一些缺点：有方向、易被阻挡。因此该文章提出了一种在线的基于环境感知的智能自适应mmWare波束选择算法，叫做FML（Fast Machine Learning）。这里的波束选择是针对于基站而言的，因为基站发送的信号极易被建筑物遮挡。FML是针对5G蜂窝网络的特性进行设计的，此算法能够针对附近建筑物、车辆拥塞等情景进行自适应mmWare的波束选择（已下载）</td><td>multi-armed bandit problem（多臂老虎机问题，属于强化学习的一种推荐算法）</td></tr></tbody></table><blockquote><p>邮件内容：</p><p>Dear Professor,<br>    I’m a postgraduate student in China who’s a greenhand towards the domain of ‘Internet of Vehicles’, and fortunately have I read the abstract of your luminous paper named ‘Popular Content Distribution in Public Transportation Using Artificial Intelligence Techniques’ which have really interested me that I’d like to learn more about your brilliant thoughts in your prescient paper, so I’ll deeply apperciate you if you could give me a copy of your paper, thanks a lot!</p></blockquote><h2 id="b级"><a class="markdownIt-Anchor" href="#b级"></a> B级</h2><table><thead><tr><th>标题</th><th>总结</th></tr></thead><tbody><tr><td><a href="https://ieeexplore.ieee.org/document/8605302" target="_blank" rel="noopener">Artificial Intelligence for Vehicle-to-Everything: A Survey</a><br><strong>IEEE ACCESS-2019.1.8</strong></td><td><span style="background:#ff8a80;color:#fff">【文献综述】</span>一个关于AI与V2X的文献综述。V2X发展有三个方向：交通效率、道路安全、能源利用率。文中提出了一些ML在V2X中的应用场景：提高出行安全与舒适度、速度建议、合作停车（V2V寻找空闲车位等）、VANET中的时空网络流量估计、交通信号灯控制等等（已下载）</td></tr><tr><td><a href="https://ieeexplore.ieee.org/document/8406895" target="_blank" rel="noopener">Hierarchical architecture for 5G based software-defined intelligent transportation system</a><br><strong>IEEE INFOCOM 2018</strong></td><td><span style="background:#ff8a80;color:#fff">【基于5G的适用于VANET的新型网络架构】</span>架构解决了传统VANET中ITS和SDN（Software Define-Network）之间通信的带宽和持续连接之间的问题（已下载）</td></tr><tr><td><a href="https://www.sciencedirect.com/science/article/pii/S157087051930160X?via%3Dihub" target="_blank" rel="noopener">A two-tier machine learning-based handover management scheme for intelligent vehicular networks</a><br><strong>Ad Hoc Networks - 2019.7.19</strong></td><td><span style="background:#ff8a80;color:#fff">【车载移动网络接入点无缝切换的双层机器学习算法】</span>传统移动网络协议无法满足高速运动和无线接入点的频繁切换的需要，移动IP切换会导致高延迟和高丢包率，因此本文提出一种实现移动接入点无缝切换的机器学习算法。该算法分两层，第一层使用循环神经网络预测接收到的无线接入点的信号强度，从而判断是否需要进行接入点的切换；第二层使用隐马尔可夫模型来选择合适的无线接入点以进行接入。（已下载）</td></tr><tr><td><a href="https://www.sciencedirect.com/science/article/pii/S1389128618305267?via%3Dihub" target="_blank" rel="noopener">Safety and efficiency control protocol for highways using intelligent vehicular networks</a><br><strong>Computer Networks - 2019.4</strong></td><td><span style="background:#ff8a80;color:#fff">【避免高速公路交通事故的一种协议】</span>一种基于ITS的网络协议，用于在高速公路上前车出现事故时向后车发送信息并提出一种可行的操作方案，如加速、减速、变道、停车等以避免严重的交通事故发生（已下载）</td></tr><tr><td><a href="https://ieeexplore.ieee.org/abstract/document/8345672" target="_blank" rel="noopener">Machine Learning for Vehicular Networks: Recent Advances and Application Examples</a><br><strong>ieee vehicular technology magazine -</strong> <strong>2018.6</strong></td><td><span style="background:#ff8a80;color:#fff">【文献综述】</span>是一个机器学习在车联网中的研究现状的一个文献综述。其提出，使用机器学习在车联网中有如下应用场景：<br>1、监督学习：入侵、错误、异常检测，吞吐量预测，通道参数回归<br>2、无监督学习：拥塞控制，分级路由选择，数据聚合<br>3、增强学习：资源管理，路由选择<br>其提出的具体的ML在车联网中的应用包括：<u>交通流预测、网络拥塞控制、智能无线资源管理、负载平衡和垂直控制、虚拟资源分配、分布式资源管理</u>等（已下载）</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table><h2 id="c级"><a class="markdownIt-Anchor" href="#c级"></a> C级</h2><table><thead><tr><th>标题</th><th>总结</th></tr></thead><tbody><tr><td><a href="https://arxiv.org/abs/1906.00400" target="_blank" rel="noopener">Mobile Edge Intelligence and Computing for the Internet of Vehicles</a><br><strong>Arxiv（尚未正式发布）- 2019.6</strong></td><td><span style="background:#ff8a80;color:#fff">【文献综述】</span>IOT时代，特别在车辆中，车载处理单元和云计算无法满足大量数据的处理与存储需求，因此需要边缘信息系统来进行辅助，包括边缘缓存、边缘计算、边缘AI，而应用场景则包括：边缘联合感知、地图、定位等等（已下载）</td></tr><tr><td><a href="https://ieeexplore.ieee.org/document/8756239" target="_blank" rel="noopener">Intelligent Intersection Management Systems Considering Autonomous Vehicles: A Systematic Literature Review</a><br><strong>IEEE Access - 2019.7</strong></td><td><span style="background:#ff8a80;color:#fff">【文献综述】</span>自动驾驶在交叉路口的一些方法的文献综述，包括ITS和通信技术，但占比不大（已下载）</td></tr><tr><td></td><td></td></tr></tbody></table><h2 id="d级"><a class="markdownIt-Anchor" href="#d级"></a> D级</h2>]]></content>
     
