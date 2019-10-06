@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yinyoupoet.github.io/"/>
-  <updated>2019-10-05T08:14:47.070Z</updated>
+  <updated>2019-10-06T12:22:25.770Z</updated>
   <id>https://yinyoupoet.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>5G与人工智能的应用场景分析与探索</title>
+    <link href="https://yinyoupoet.github.io/2019/10/06/5G%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%88%86%E6%9E%90%E4%B8%8E%E6%8E%A2%E7%B4%A2/"/>
+    <id>https://yinyoupoet.github.io/2019/10/06/5G与人工智能的应用场景分析与探索/</id>
+    <published>2019-10-06T11:01:00.000Z</published>
+    <updated>2019-10-06T12:22:25.770Z</updated>
+    
+    <content type="html"><![CDATA[<p>5G包含三个方面的场景，分别为：</p><ul><li>eMBB：增强移动宽带，针对大流量移动宽带业务</li><li>mMTC：大连接物联网，针对大规模物联网业务</li><li>URLLC：超高可靠超低时延通信</li></ul><p>而在5G即将到来之际，其与AI的相关应用场景的探索也正在紧锣密鼓地进行着，本文中我将根据一些资料的介绍，并结合自己的理解，对其进行总结与探索。</p><hr><p>目前AI技术的发展已经渐渐开始放缓，而AI如何落地、如何真正发挥最大作用以方便人们生活，这才是目前政府、企业和寻常百姓所最关心的问题。站在5G的浪潮上，AI自然而然地被期望与5G共同发展。相比于从前的网络，5G带来了更大的带宽、更大规模的连接和更低时延高可靠的服务，因此关于AI赋能5G的应用，或将需要从这些方面开始入手。</p><p>从5G网络特点来看，其频率主要分成FR1频段（<em>450MHz——6GHz</em>）和FR2频段（<em>24.25GHz——52.6GHz</em>），而FR2频段的频率远高于当前所用网络的频率，而频率变高则意味着波长变短，因此其被称之为毫米波<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。毫米波带宽更大、数据速率更高，但是也更易损耗、覆盖范围也更小，因此相对于传统4G网络的基站而言，5G需要更多的微基站，或可称为超密集组网（Ultra Dense Network）。而为了应对毫米波易受干扰（噪声）的问题，5G将采用大规模天线的架构，以降低噪声干扰所造成的影响。针对不同的应用场景，5G需要定义不同的网络切片，而对于一些对时延要求较高的应用，往往需要与移动边缘计算（MEC）协同工作。</p><p><img alt="5G几个应用场景 (引用自[2])" data-src="/images/5G%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%88%86%E6%9E%90%E4%B8%8E%E6%8E%A2%E7%B4%A2/1570363366954.png" class="lozad"></p><p>AI方面，自从算力的价格下跌、以及深度学习的出现，人们已经拥有快速对超大规模特征进行建模的能力。而在5G的加持下，新一代人工智能即将到来。</p><p>AI能干的事情很多，但是在5G的加持下其必将干的更好，很多从前做不到的事情或将成为现实。其部分应用场景列举如下：</p><ul><li>智慧城市：依托5G和AI，改善社会治理、改善民生、升级产业、环境监督等；</li><li>智能交通：对城区交通情况进行建模，并通过VANET网络向司机或车载智能设备提出建议，以供更好提前规划交通出行策略，达到避免拥堵、避免碰撞，甚而达到自动驾驶；</li><li>智能环保：智能预测与监督、预警。</li></ul><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://blog.csdn.net/wangyongtao1240/article/details/80412092" target="_blank" rel="noopener">为什么5G要使用毫米波？</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li><li id="fn2" class="footnote-item"><p>王喜⽂.5G为人工智能和智能制造赋能[EB/OL].2019-7/2019-10-06 <a href="#fnref2" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;5G包含三个方面的场景，分别为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eMBB：增强移动宽带，针对大流量移动宽带业务&lt;/li&gt;
+&lt;li&gt;mMTC：大连接物联网，针对大规模物联网业务&lt;/li&gt;
+&lt;li&gt;URLLC：超高可靠超低时延通信&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而在5G即将到来之际，
+      
+    
+    </summary>
+    
+      <category term="AI" scheme="https://yinyoupoet.github.io/categories/AI/"/>
+    
+      <category term="5G" scheme="https://yinyoupoet.github.io/categories/AI/5G/"/>
+    
+      <category term="车联网" scheme="https://yinyoupoet.github.io/categories/AI/5G/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
+    
+    
+      <category term="5G" scheme="https://yinyoupoet.github.io/tags/5G/"/>
+    
+      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>从文献综述看AI与车联网的融合发展【附相关论文】</title>
@@ -38,9 +75,9 @@
       <category term="车联网" scheme="https://yinyoupoet.github.io/categories/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="车联网" scheme="https://yinyoupoet.github.io/tags/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
-    
       <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
+    
+      <category term="车联网" scheme="https://yinyoupoet.github.io/tags/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
