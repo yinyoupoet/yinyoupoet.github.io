@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yinyoupoet.github.io/"/>
-  <updated>2019-10-06T13:36:36.260Z</updated>
+  <updated>2019-11-05T08:40:51.256Z</updated>
   <id>https://yinyoupoet.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Wireless Network Evolution - 6G &amp; AI</title>
+    <link href="https://yinyoupoet.github.io/2019/11/05/Wireless-Network-Evolution-6G-AI/"/>
+    <id>https://yinyoupoet.github.io/2019/11/05/Wireless-Network-Evolution-6G-AI/</id>
+    <published>2019-11-05T07:18:17.000Z</published>
+    <updated>2019-11-05T08:40:51.256Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="introduction"><a class="markdownIt-Anchor" href="#introduction"></a> Introduction</h2><p>6G is gonna be the main melody in 2030s while 5G is being deployed around the world, and is gonna be one of the main supports of the fourth industrial revolution. Undoubtedly Artificial Intelligence will be the key role in the upcoming industrial revolution, so many scientists think that the next generation of networks may not be the simple connection of things, but the connection of intelligence.</p><p>As we can see 5G, whose main features include eMBB (enhanced mobile broadband), uRLLC (ultra-reliable and low-latency communications) and mMTC (massive machine-type communication), does a very little of things to integrate AI into its network architecture, most of the work they did are about how to achieve super low latency and high bandwidth. Nevertheless, in 6G, we may have much higher requirements with more stringent requirements. The typical features are as follows<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>:</p><ul><li>Very high data rates, up to 1 Tbps;</li><li>Very high energy efficiency, with the ability to support battery-free IoT devices;</li><li>Trusted global connectivity;</li><li>Massive low-latency control (less than 1 msec end-to-end latency);</li><li>Very broad frequency bands (e.g., 73GHz-140GHz and 1THz-3THz);</li><li>Ubiquitous always-on broadband global network coverage by integrating terrestrial wireless with satellite systems;</li><li>Connected intelligence with machine learning capability and AI networking hierarchy.</li></ul><p>What 6G is gonna achieve based on 5G are described below<sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[1:1]</a></sup>.</p><p><strong>Computation Oriented Communications (COC):</strong> New smart devices call for distributed and in-network computation to enable the key functionalities of AI-empowered 6G, such as federated learning and edge intelligence. Instead of targeting classical quality of service (QoS) provisioning, CoC will flexibly choose an operating point in the rate-latency-reliability space depending on the availability of various communications resources to achieve a certain computational accuracy.</p><p><strong>Contextually Agile eMBB Communications (CAeC):</strong> The provision of 6G eMBB services is expected to be more agile and adaptive to the network context, including communication network context such as link congestion and network topology; physical environment context such as surrounding location and mobility; and social network context such as social neighborhood and sentiments.</p><p><strong>Event Defined uRLLC (EDuRLLC):</strong> In contrast to the 5G uRLLC application scenario (e.g., virtual reality and industrial automation) where redundant resources are in place to offset many uncertainties, 6G will need to support uRLLC in extreme or emergency events with spatially and temporally changing device densities, traffic patterns, and spectrum and infrastructure availability.</p><p>6G is gonna be an intelligent information system whose roadmap is as followed (the image comes from<sup class="footnote-ref"><a href="#fn1" id="fnref1:2">[1:2]</a></sup>).</p><p><img alt="The roadmap of 6G" data-src="/images/Wireless-Network-Evolution-6G-AI/image-20191105160805762.png" class="lozad"></p><p>The potential network architecture for 6G is shown below (the image comes from<sup class="footnote-ref"><a href="#fn1" id="fnref1:3">[1:3]</a></sup>).</p><p><img alt="The architecture of 6G" data-src="/images/Wireless-Network-Evolution-6G-AI/image-20191105161131754.png" class="lozad"></p><h2 id="what-can-ai-empowered-6g-do"><a class="markdownIt-Anchor" href="#what-can-ai-empowered-6g-do"></a> What can AI empowered 6G do?</h2><p>6G will be substantially different from the previous generations as it will be characterized by a high degree of heterogeneity in multiple aspects such as network infrastructures, radio access technologies, RF devices, computing and storage resources, application types, etc. And it’s obviously that the volume and variety of data in the network will grow significantly which indicates AI is demanded as an indispensable tool to facilitate intelligent learning, reasoning, and decision making to achieve data-driven network planning and operation to realize real-time additivity to dynamic network environments<sup class="footnote-ref"><a href="#fn1" id="fnref1:4">[1:4]</a></sup>.</p><p>AI can help 6G to make advances in many fields, such as big data analytics in 6G, closed-loop optimization, and wireless communication, etc. In this article, we only focus on the intelligent wireless communication.</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>Letaief K B , Chen W , Shi Y , et al. The Roadmap to 6G – AI Empowered Wireless Networks[J]. IEEE Communications Magazine, 2019. <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a> <a href="#fnref1:2" class="footnote-backref">↩︎</a> <a href="#fnref1:3" class="footnote-backref">↩︎</a> <a href="#fnref1:4" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    <summary type="html">
+    
+      What will 6G be? What research shall we going on?
+    
+    </summary>
+    
+      <category term="Networks" scheme="https://yinyoupoet.github.io/categories/Networks/"/>
+    
+    
+      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
+    
+      <category term="6G" scheme="https://yinyoupoet.github.io/tags/6G/"/>
+    
+  </entry>
   
   <entry>
     <title>5G与人工智能的应用场景分析与探索</title>
@@ -43,9 +67,9 @@
       <category term="5G" scheme="https://yinyoupoet.github.io/categories/5G/"/>
     
     
-      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
-    
       <category term="5G" scheme="https://yinyoupoet.github.io/tags/5G/"/>
+    
+      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
     
   </entry>
   
@@ -71,9 +95,9 @@
       <category term="车联网" scheme="https://yinyoupoet.github.io/categories/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="车联网" scheme="https://yinyoupoet.github.io/tags/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
-    
       <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
+    
+      <category term="车联网" scheme="https://yinyoupoet.github.io/tags/%E8%BD%A6%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
