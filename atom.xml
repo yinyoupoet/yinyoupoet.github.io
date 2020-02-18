@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yinyoupoet.github.io/"/>
-  <updated>2019-12-02T14:03:42.000Z</updated>
+  <updated>2020-02-18T02:44:24.107Z</updated>
   <id>https://yinyoupoet.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WireShark的使用</title>
+    <link href="https://yinyoupoet.github.io/2020/02/18/WireShark%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://yinyoupoet.github.io/2020/02/18/WireShark的使用/</id>
+    <published>2020-02-18T01:56:58.000Z</published>
+    <updated>2020-02-18T02:44:24.107Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="网络基本协议知识"><a class="markdownIt-Anchor" href="#网络基本协议知识"></a> 网络基本协议知识</h2><p>ARP：MAC和IP之间的地址映射</p><p>IP：点到点通信</p><p>ICMP：辅助IP传输，报告错误，测试网络</p><p>IGMP：组管理协议</p><p>UDP：无连接的端到端</p><p>TCP：有连接的端到端</p><p>HTTP：请求-响应协议</p><p>SMTP：邮件传输协议</p><p>DNS：域名解析协议</p><h2 id="常用命令"><a class="markdownIt-Anchor" href="#常用命令"></a> 常用命令</h2><p>arp</p><p>ping</p><p>tracert</p><h2 id="故障分析"><a class="markdownIt-Anchor" href="#故障分析"></a> 故障分析</h2><p><img src="/images/cover&top/tenor.gif" data-original="/images/WireShark%E7%9A%84%E4%BD%BF%E7%94%A8/image-20200218103101209.png" alt="网络故障分析思路"></p><p><img src="/images/cover&top/tenor.gif" data-original="/images/WireShark%E7%9A%84%E4%BD%BF%E7%94%A8/image-20200218103432136.png" alt="image-20200218103432136"></p><p><img src="/images/cover&top/tenor.gif" data-original="/images/WireShark%E7%9A%84%E4%BD%BF%E7%94%A8/image-20200218104405224.png" alt="image-20200218104405224"></p><p><img src="/images/cover&top/tenor.gif" data-original="/images/WireShark%E7%9A%84%E4%BD%BF%E7%94%A8/image-20200218104415014.png" alt="image-20200218104415014"></p>]]></content>
+    
+    <summary type="html">
+    
+      Wireshark工具的基本使用介绍
+    
+    </summary>
+    
+      <category term="实用工具" scheme="https://yinyoupoet.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="网络" scheme="https://yinyoupoet.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>设计模式总结</title>
@@ -56,9 +78,9 @@
       <category term="Networks" scheme="https://yinyoupoet.github.io/categories/Networks/"/>
     
     
-      <category term="6G" scheme="https://yinyoupoet.github.io/tags/6G/"/>
-    
       <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
+    
+      <category term="6G" scheme="https://yinyoupoet.github.io/tags/6G/"/>
     
   </entry>
   
@@ -89,9 +111,9 @@
       <category term="5G" scheme="https://yinyoupoet.github.io/categories/5G/"/>
     
     
-      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
-    
       <category term="5G" scheme="https://yinyoupoet.github.io/tags/5G/"/>
+    
+      <category term="AI" scheme="https://yinyoupoet.github.io/tags/AI/"/>
     
   </entry>
   
